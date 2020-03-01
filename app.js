@@ -15,5 +15,5 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 http.createServer(app)
 	.listen(3000, function () {
-		console.log('Servidor está no ar');
+		console.log('Servidor está no ar. Acesse http://localhost:3000/index.html para jogar');
 	});
