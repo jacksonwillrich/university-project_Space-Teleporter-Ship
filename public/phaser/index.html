@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="js/phaser.min.js"></script>
+    <script src="js/boot.js"></script>
+    <script src="js/carregar.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/jogar.js"></script>
+    <script src="js/jogo.js"></script>
+</head>
+<body>
+
+    <script>
+
+
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '955618657877780',
+                xfbml: true,
+                version: 'v2.8',
+                cookie: true
+            });
+            FB.AppEvents.logPageView();
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+    </script>
+
+    <div id="gameDiv"></div>
+</body>
+</html>

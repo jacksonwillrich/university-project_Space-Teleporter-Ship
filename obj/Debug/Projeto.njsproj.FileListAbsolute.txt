@@ -1,0 +1,2 @@
+d:\jackson\Downloads\projetos-faculdade-master\projetos-faculdade-master\JogosWeb\Projeto\Projeto\obj\Debug\Projeto.njsprojAssemblyReference.cache
+d:\jackson\Downloads\projetos-faculdade-master\projetos-faculdade-master\JogosWeb\Projeto\Projeto\bin\Microsoft.NodejsTools.WebRole.dll

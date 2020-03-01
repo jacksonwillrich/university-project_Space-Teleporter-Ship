@@ -1,0 +1,27 @@
+{
+  "name": "space-teleporter-ship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksonwillrich/university-project_Space-Teleporter-Ship.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacksonwillrich/university-project_Space-Teleporter-Ship/issues"
+  },
+  "homepage": "https://github.com/jacksonwillrich/university-project_Space-Teleporter-Ship#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "devcert": "^1.1.0",
+    "ejs": "^2.5.2",
+    "ejs-mate": "^2.3.0",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.10"
+  }
+}
